@@ -1,0 +1,15 @@
+pyproject.toml
+setup.py
+aic_demo/__init__.py
+aic_demo/admin.py
+aic_demo/apps.py
+aic_demo/models.py
+aic_demo/serializers.py
+aic_demo/tests.py
+aic_demo/urls.py
+aic_demo/views.py
+cb_django_aic_demo.egg-info/PKG-INFO
+cb_django_aic_demo.egg-info/SOURCES.txt
+cb_django_aic_demo.egg-info/dependency_links.txt
+cb_django_aic_demo.egg-info/requires.txt
+cb_django_aic_demo.egg-info/top_level.txt
