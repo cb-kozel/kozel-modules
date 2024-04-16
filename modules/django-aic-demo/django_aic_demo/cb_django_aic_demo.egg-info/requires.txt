@@ -1,2 +1,2 @@
-requests
 django-cors-headers
+requests

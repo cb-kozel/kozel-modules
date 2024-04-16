@@ -1,7 +1,7 @@
 {
   "name": "@modules/aic-demo",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "This is a React Native application named AicDemo. The application fetches and displays artworks from an API provided by the Art Institute of Chicago (AIC). It includes a search functionality that allows users to search for specific artworks at AIC.",
   "private": true,
   "main": "index.js"
 }
