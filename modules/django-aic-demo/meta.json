@@ -1,6 +1,6 @@
 {
   "title": "Artwork Search (backend)",
-  "description": "",
+  "description": "This is a Django application that serves as the backend for the AicDemo React Native app. It provides an API endpoint for fetching and searching artworks housed at the Art Institute of Chicago.",
   "root": "/backend/modules",
   "schema": {}
 }

@@ -37,10 +37,10 @@ function AicDemo() {
   const [modalVisible, setModalVisible] = useState(false)
   const [selectedArtwork, setSelectedArtwork] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
-
+  const hostUrl = "http://localhost:8000"
   useEffect(() => {
     setIsLoading(true)
-    fetch("http://localhost:8000/modules/aic-demo/fetch_artworks/")
+    fetch(`${hostUrl}/modules/aic-demo/fetch_artworks/`)
       .then(response => response.json())
       .then(data => {
         setArtworks(data)
@@ -49,9 +49,7 @@ function AicDemo() {
   }, [])
   const searchArtworks = () => {
     setIsLoading(true)
-    fetch(
-      `http://localhost:8000/modules/aic-demo/fetch_artworks/?q=${searchTerm}`
-    )
+    fetch(`${hostUrl}/modules/aic-demo/fetch_artworks/?q=${searchTerm}`)
       .then(response => response.json())
       .then(data => {
         setArtworks(data)
@@ -61,7 +59,7 @@ function AicDemo() {
   const getSingleArtwork = async id => {
     setIsLoading(true)
     const response = await fetch(
-      `http://localhost:8000/modules/aic-demo/fetch_single_artwork/${id}/`
+      `${hostUrl}/modules/aic-demo/fetch_single_artwork/${id}/`
     )
     const artwork = await response.json()
     setIsLoading(false)
