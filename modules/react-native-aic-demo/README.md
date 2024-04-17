@@ -5,7 +5,7 @@ Simple overview of use/purpose.
 
 ## Description
 
-This is a React Native application named AicDemo. The application fetches and displays artworks from an API provided by the Art Institute of Chicago (AIC). It includes a search functionality that allows users to search for specific artworks at AIC.
+This is a React Native application named AicDemo. The application fetches and displays artworks from an API provided by the Art Institute of Chicago (AIC). It includes a search functionality that allows users to search for specific artworks at AIC. This frontend module is designed to be used with the Django-aic-demo backend module. 
 
 Key features of the application include:
 
