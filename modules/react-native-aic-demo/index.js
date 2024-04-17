@@ -37,7 +37,11 @@ function AicDemo() {
   const [modalVisible, setModalVisible] = useState(false)
   const [selectedArtwork, setSelectedArtwork] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
+
+  /*-------------Change this value to the URL of the Crowdbotics app*/
   const hostUrl = "http://localhost:8000"
+  /*-------------Change this value to the URL of the Crowdbotics app*/
+
   useEffect(() => {
     setIsLoading(true)
     fetch(`${hostUrl}/modules/aic-demo/fetch_artworks/`)
