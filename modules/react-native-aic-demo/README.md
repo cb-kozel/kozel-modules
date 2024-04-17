@@ -5,7 +5,7 @@ Simple overview of use/purpose.
 
 ## Description
 
-This is a React Native application named AicDemo. The application fetches and displays artworks from an API provided by the Art Institute of Chicago (AIC). It includes a search functionality that allows users to search for specific artworks at AIC. This frontend module is designed to be used with the Django-aic-demo backend module. 
+This is a React Native application named AicDemo. The application fetches and displays artworks from an API provided by the Art Institute of Chicago (AIC). It includes a search functionality that allows users to search for specific artworks at AIC. This frontend module is designed to be used with the Django-aic-demo backend module.
 
 Key features of the application include:
 
@@ -23,19 +23,20 @@ The application uses the useEffect hook to fetch the artworks from the API when 
 
 ### Dependencies
 
-* react-native-render-html 
-* react-native-vector-icons
+- react-native-render-html
+- react-native-vector-icons
 
 ### Installing
 
-1. Log into the Crowdbotics platform 
+1. Log into the Crowdbotics platform
 2. Navigate to Studio and click on Modules
 3. Click the install button
-
+4. Be sure to change the
 
 ## Help
 
-Please see below for an example of how to get react-native-vector-icons working with your Crowdbotics application. 
+Please see below for an example of how to get react-native-vector-icons working with your Crowdbotics application.
+
 ```
 import Icon from "react-native-vector-icons/Ionicons"
 import iconFont from "react-native-vector-icons/Fonts/Ionicons.ttf"
@@ -60,11 +61,9 @@ jason.kozel@crowdbotics.com
 
 ## Version History
 
-
-* 0.1
-    * Initial Release
+- 0.1
+  - Initial Release
 
 ## License
 
-This project is licensed under the MIT License 
-
+This project is licensed under the MIT License
