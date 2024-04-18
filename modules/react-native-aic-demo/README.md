@@ -1,7 +1,7 @@
 # Project Title
 
 Simple overview of use/purpose.
-![App Preview](./preview.png)
+
 
 ## Description
 

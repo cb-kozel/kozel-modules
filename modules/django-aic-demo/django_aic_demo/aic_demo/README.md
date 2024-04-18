@@ -2,7 +2,7 @@
 
 This is a Django application that serves as the backend for the AicDemo React Native app. It provides an API endpoint for fetching and searching artworks housed at the [Art Institute of Chicago](https://api.artic.edu/docs/#introduction).
 
-![App Preview](../../preview.png)
+
 
 ## Features
 
@@ -16,6 +16,7 @@ This is a Django application that serves as the backend for the AicDemo React Na
 2. Navigate to Studio and click on Modules
 3. Find the "Artwork Search (backend)" module
 4. Click the install button
+
 
 ## Local Setup
 
